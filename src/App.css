@@ -47,10 +47,10 @@
 .slider:before {
     position: absolute;
     content: "";
-    height: 18px;
-    width: 18px;
-    left: 4px;
-    bottom: 4px;
+    height: 17px;
+    width: 17px;
+    left: 3px;
+    bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -79,5 +79,51 @@ input:checked+.slider:before {
 }
 
 .nav-list {
-    @apply px-5 font-mono;
+    @apply px-5;
+}
+
+
+/* Hero Section  */
+.hero-section
+{
+    min-height: 65vh;
+    background-image : url("./images/hero-img.png");
+    background-attachment : fixed;
+    background-position : center;
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+.header-section
+{
+    height: 100vh;
+    box-shadow: 0px -18px 34px -41px;
+    
+}
+
+/* Header Section  */
+.branding-img
+{
+    background-image: url("./images/gdsc-branding.png");
+    width: 350px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+.header-section .container
+{
+    padding: 5rem;
+}
+.header-section h1
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.header-section p
+{
+    padding : 30px 50px 20px 0px;
+    line-height: 1.9em;
+    text-align: center;
 }
