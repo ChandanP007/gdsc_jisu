@@ -13,8 +13,6 @@ function Navbar() {
   }
 
 
-  
-
   return (
     <>
       <div id="navbar" className='flex flex-row justify-between p-5 shadow-xl  dark:shadow-slate-50  sticky top-0 px-24 dark:bg-black dark:text-white'>
