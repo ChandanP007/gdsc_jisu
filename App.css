@@ -11,10 +11,7 @@
     --googlegrey: #757575;
     --googlegreylight: #E0E0E0;
 }
-#navbar
-{
-    background: #f2f2f2;
-}
+
 .logo {
     display: flex;
     justify-content: center;
