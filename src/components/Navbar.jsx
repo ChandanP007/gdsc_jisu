@@ -1,21 +1,31 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {useState} from 'react'
 
 
 function Navbar() {
 
+  const [theme , setTheme] = useState('light')
+
+  const toggleTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light')
+    document.body.classList.toggle('dark')
+  }
+
+
+  
+
   return (
     <>
-      <div id="navbar" className='flex flex-row justify-between p-5 shadow-xl px-24'>
+      <div id="navbar" className='flex flex-row justify-between p-5 shadow-xl  dark:shadow-slate-50  sticky top-0 px-24 dark:bg-black dark:text-white'>
         <div className="logo">
           <Link to='/'>
-            <span>
+            <span >
                 <span className='text-green-600 font-mono font-semibold text-3xl'>G</span>
                 <span className='text-red-600 font-mono font-semibold text-3xl'>D</span>
                 <span className='text-yellow-600 font-mono font-semibold text-3xl'>S</span>
-                <span className='text-blue-600 font-mono font-semibold text-3xl'>C </span>
-                <span className='text-black  font-mono font-semibold text-3xl hover:underline underline-offset-4 decoration-green-500'>JIS University</span>
+                <span className='text-blue-600 font-mono font-semibold text-3xl dark:text-blue-400'>C </span>
+                <span className='text-black  font-mono font-semibold text-3xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JIS University</span>
             </span>
             </Link>
         </div>
@@ -30,7 +40,7 @@ function Navbar() {
             {/* Light Switch  */}
             <label className="switch " >
               <input type="checkbox"/>
-              <span className="slider round shadow-md shadow-slate-600"></span>
+              <span className="slider round shadow-md shadow-slate-600 dark:border-cyan-300 border-opacity-100 rounded border-2" onClick={toggleTheme}></span>
             </label>
           </ul>
         </div>
