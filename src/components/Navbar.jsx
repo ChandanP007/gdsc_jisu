@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {useState} from 'react'
 
+import Brightness1Icon from '@mui/icons-material/Brightness1';
+import Brightness2Icon from '@mui/icons-material/Brightness2';
+import Brightness5Icon from '@mui/icons-material/Brightness5';
+
 
 function Navbar() {
 
@@ -21,8 +25,8 @@ function Navbar() {
                 <span className='text-green-600 font-mono font-semibold text-4xl'>G</span>
                 <span className='text-red-600 font-mono font-semibold text-4xl'>D</span>
                 <span className='text-yellow-600 font-mono font-semibold text-4xl'>S</span>
-                <span className='text-blue-600 font-mono font-semibold text-4xl dark:text-blue-400'>C</span>
-                <span className='text-black  font-mono font-semibold text-3xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JIS University</span>
+                <span className='text-blue-600 font-mono font-semibold text-4xl dark:text-blue-400'>C </span>
+                <span className='text-black  font-mono font-semibold text-4xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JISU</span>
             </span>
             </Link>
         </div>
@@ -39,6 +43,7 @@ function Navbar() {
               <input type="checkbox"/>
               <span className="slider round shadow-md shadow-slate-600 dark:border-cyan-300 border-opacity-100 rounded border-2" onClick={toggleTheme}></span>
             </label>
+             <span className='pl-2'>{theme === 'light' ? <Brightness5Icon /> : <Brightness2Icon />}</span>
           </ul>
         </div>
       </div>

@@ -1,6 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import GDSC_LOGO from '../assets/jisu_gdsc.png'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import RssFeedIcon from '@mui/icons-material/RssFeed';
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+import FollowTheSignsIcon from '@mui/icons-material/FollowTheSigns';
+
+
+
 
 function Footer() {
   return (
@@ -26,18 +39,32 @@ function Footer() {
 
 
         <div className='sm:col-span-1 col-span-3'>
-            <span className='text-black dark:text-white font-mono font-medium'>Contact Us</span>
+            <span className='text-black dark:text-white font-mono font-bold text-xl'>Contact Us</span>
             <div className='mt-5'>
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                <ul className='dark:text-white text-black font-mono font-medium'>
+                  <li> <a href="https://www.facebook.com/groups/gdscjisu"><FacebookIcon className='dark:text-white m-2'/>@gdscjisu</a></li>
+                  <li> <a href="https://www.instagram.com/gdsc_jisu/"><InstagramIcon  className='dark:text-white m-2'/>@gdsc_jisu</a></li>
+                  <li>  <a href="https://twitter.com/gdsc_jisu"><TwitterIcon className='dark:text-white m-2'/></a>@gdsc_jisu</li>
+                  <li>  <a href="https://github.com/gdsc-jisu"><GitHubIcon className='dark:text-white m-2'/>@gdsc-jisu</a></li>
+                  <li> <a href="https://www.linkedin.com/company/gdsc-jisu"><LinkedInIcon className='dark:text-white m-2'/>@gdsc-jisu</a></li>
+                  <li>  <a href="https://www.youtube.com/"><YouTubeIcon className='dark:text-white m-2'/></a>@404NotFound</li>
                 </ul>
              </div>
         </div>
-        <div className='sm:col-span-1 col-span-3'>🤣🤣🤣🤣</div>
+
+
+
+        <div className='sm:col-span-1 col-span-3'>
+            <span className='text-black dark:text-white font-mono font-bold text-xl'>Resources</span>
+            <div className='mt-5'>
+                <ul className='dark:text-white text-black font-mono font-medium'>
+                  <li> <a href="https://www.facebook.com/groups/gdscjisu"><InsertDriveFileIcon className='dark:text-white m-2'/>CheatSheets</a></li>
+                  <li> <a href="https://www.instagram.com/gdsc_jisu/"><RssFeedIcon  className='dark:text-white m-2'/>Blogs</a></li>
+                  <li>  <a href="https://twitter.com/gdsc_jisu"><PlayCircleIcon className='dark:text-white m-2'/></a>Videos</li>
+                  <li>  <a href="https://twitter.com/gdsc_jisu"><FollowTheSignsIcon className='dark:text-white m-2'/></a>RoadMaps</li>
+                </ul>
+             </div>
+        </div>
       </div>
     </div>
   )
