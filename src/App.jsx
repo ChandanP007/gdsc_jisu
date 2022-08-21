@@ -9,13 +9,10 @@ function App() {
 
   return (
     <>
-    <div className="App">
       <Navbar />
       <Hero />
       <Header />
       <Footer />
-
-    </div>
 
     </>
   )

@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Header() {
-  return (
+  return(
     <div className='header-section mx-auto bg'>
         <div className="container   m-5 p-10 mx-auto">
+
             <div>
               <div className="branding-img">
 
