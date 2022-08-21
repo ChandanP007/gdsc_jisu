@@ -71,22 +71,3 @@ function Footer() {
 }
 
 export default Footer
-
-/*
-<div className=' p-5'>
-          <div className=' p-2 '>
-            <img src={GDSC_LOGO} alt='Google developer Student Club' className='h-[90px]' />
-            <span className='text-black dark:text-white font-mono font-medium'>Google Developer Student Club <br /> JIS University</span>
-            </div>
-            <div  className='mt-5 pl-2'>
-                <ul>
-                <li><a href="#" ><Link to={'/'}            className="   font-mono font-light cursor-default hover:text-slate-900 dark:text-white  hover:font-semibold decoration-red-600 " >Home</Link></a></li>
-                <li><a href="#" ><Link to={'/events'} className="  font-mono font-light cursor-default hover:text-slate-900 dark:text-white   hover:font-semibold decoration-red-600 ">Events</Link></a></li>
-                <li><a href="#" ><Link to={'/timeline'} className=" font-mono font-light cursor-default hover:text-slate-900 dark:text-white   hover:font-semibold decoration-red-600 ">Timeline</Link></a></li>
-                <li><a href="#" ><Link to={'/projects'} className="  font-mono font-light cursor-default hover:text-slate-900 dark:text-white   hover:font-semibold decoration-red-600" >Projects</Link></a></li>
-                <li><a href="#" ><Link to={'/team'} className=" font-mono font-light cursor-default hover:text-slate-900 dark:text-white   hover:font-semibold decoration-red-600" >Teams</Link></a></li>
-                <li><a href="#" ><Link to={'/contact'} className=" font-mono font-light cursor-default hover:text-slate-900 dark:text-white    hover:font-semibold decoration-red-600" >Join Us</Link></a></li>
-                </ul>
-            </div>
-
-            */
