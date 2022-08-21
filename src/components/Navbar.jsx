@@ -18,7 +18,7 @@ function Navbar() {
   
   return (
     <>
-      <div id="navbar" className='flex flex-row justify-between p-5  shadow-black shadow-sm   dark:shadow-slate-50  sticky top-0 px-24 dark:bg-bg-dark dark:text-white'>
+      <div id="navbar" className='flex flex-row justify-between p-5  shadow-black shadow-sm bg-white bg-opacity-90  dark:shadow-slate-50  sticky top-0 px-24 dark:bg-bg-dark dark:text-white'>
         <div className="logo">
           <Link to='/'>
             <span >
