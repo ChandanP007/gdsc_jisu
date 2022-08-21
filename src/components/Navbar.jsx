@@ -12,19 +12,16 @@ function Navbar() {
     document.body.classList.toggle('dark')
   }
 
-
-  
-
   return (
     <>
-      <div id="navbar" className='flex flex-row justify-between p-5 shadow-xl  dark:shadow-slate-50  sticky top-0 px-24 dark:bg-black dark:text-white'>
+      <div id="navbar" className='flex flex-row justify-between p-5  shadow-black shadow-sm   dark:shadow-slate-50  sticky top-0 px-24 dark:bg-bg-dark dark:text-white'>
         <div className="logo">
           <Link to='/'>
             <span >
-                <span className='text-green-600 font-mono font-semibold text-3xl'>G</span>
-                <span className='text-red-600 font-mono font-semibold text-3xl'>D</span>
-                <span className='text-yellow-600 font-mono font-semibold text-3xl'>S</span>
-                <span className='text-blue-600 font-mono font-semibold text-3xl dark:text-blue-400'>C </span>
+                <span className='text-green-600 font-mono font-semibold text-4xl'>G</span>
+                <span className='text-red-600 font-mono font-semibold text-4xl'>D</span>
+                <span className='text-yellow-600 font-mono font-semibold text-4xl'>S</span>
+                <span className='text-blue-600 font-mono font-semibold text-4xl dark:text-blue-400'>C</span>
                 <span className='text-black  font-mono font-semibold text-3xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JIS University</span>
             </span>
             </Link>
