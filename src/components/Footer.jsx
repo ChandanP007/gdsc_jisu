@@ -17,7 +17,7 @@ import FollowTheSignsIcon from '@mui/icons-material/FollowTheSigns';
 
 function Footer() {
   return (
-    <div className=' bg-slate-400 dark:bg-bg-dark '>
+    <div className=' bg-orange-200 dark:bg-bg-dark '>
       <div className='grid  grid-cols-3  gap-4 text-black  p-5 place-items-center'>
 
 
