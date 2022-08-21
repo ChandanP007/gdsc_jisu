@@ -99,3 +99,31 @@ input:checked+.slider:before {
     box-shadow: 0px -18px 34px -41px;
     
 }
+
+/* Header Section  */
+.branding-img
+{
+    background-image: url("./images/gdsc-branding.png");
+    width: 350px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+.header-section .container
+{
+    padding: 5rem;
+}
+.header-section h1
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.header-section p
+{
+    padding : 30px 50px 20px 0px;
+    line-height: 1.9em;
+    text-align: center;
+}
