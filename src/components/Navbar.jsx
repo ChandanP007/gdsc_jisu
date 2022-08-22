@@ -11,7 +11,7 @@ import CloseIcon from '@mui/icons-material/Close';
 function Navbar() {
 
   const [theme , setTheme] = useState('light')
-  const [open , setOpen] = useState(true)
+  const [open , setOpen] = useState(false)
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')

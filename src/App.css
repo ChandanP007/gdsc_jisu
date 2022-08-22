@@ -115,8 +115,6 @@ input:checked+.slider:before {
 
 .branding-img {
     background-image: url("./images/gdsc-branding.png");
-    width: 350px;
-    height: 130px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,6 +133,35 @@ input:checked+.slider:before {
 
 .header-section p {
     /* padding : 30px 50px 20px 0px; */
+
     line-height: 1.9em;
     text-align: center;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
