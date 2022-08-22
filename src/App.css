@@ -84,46 +84,72 @@ input:checked+.slider:before {
 
 
 /* Hero Section  */
-.hero-section
-{
+
+.hero-section {
     min-height: 65vh;
-    background-image : url("./images/hero-img.png");
-    background-attachment : fixed;
-    background-position : center;
-    background-size : cover;
+    background-image: url("./images/hero-img.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-.header-section
-{
+
+.header-section {
     height: 100vh;
     box-shadow: 0px -18px 34px -41px;
-    
 }
 
+
 /* Header Section  */
-.branding-img
-{
+
+.branding-img {
     background-image: url("./images/gdsc-branding.png");
-    width: 350px;
-    height: 130px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     margin: auto;
 }
-.header-section .container
-{
+
+.header-section .container {
     padding: 5rem;
 }
-.header-section h1
-{
+
+.header-section h1 {
     margin-top: 50px;
     text-align: center;
 }
-.header-section p
-{
-    padding : 30px 50px 20px 0px;
+
+.header-section p {
+    padding: 30px 50px 20px 0px;
     line-height: 1.9em;
     text-align: center;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
