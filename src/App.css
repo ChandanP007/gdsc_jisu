@@ -15,7 +15,7 @@
 .logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .switch {
@@ -39,7 +39,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: var(--googlegreen);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -51,7 +51,7 @@
     width: 17px;
     left: 3px;
     bottom: 2px;
-    background-color: white;
+    background-color: var(--googlegreylight);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -61,7 +61,7 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px black;
+    box-shadow: 0 0 1px var(--googleblue);
 }
 
 input:checked+.slider:before {
@@ -79,7 +79,18 @@ input:checked+.slider:before {
 }
 
 .nav-list {
-    @apply px-5;
+    @apply text-ellipsis font-mono font-medium m-4;
+}
+
+.menu-options {
+    font-size: larger;
+}
+
+.footer {
+    background-image: url(./assets/animation_gdsc.webp);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 90px;
 }
 
 
@@ -121,7 +132,8 @@ input:checked+.slider:before {
 }
 
 .header-section p {
-    padding: 30px 50px 20px 0px;
+    /* padding : 30px 50px 20px 0px; */
+
     line-height: 1.9em;
     text-align: center;
 }
