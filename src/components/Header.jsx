@@ -12,7 +12,7 @@ function Header() {
           <h1 className='text-5xl font-bold  text-black  dark:bg-bg-dark dark:text-white font-mono'>
             Google Developer Student Club
           </h1>
-          <div className="container p-2">
+          <div className=" text-center">
           <p className='font-serif font-medium text-lg'>The Google Developer's Student Club, JIS UNIVERSITY, 💐 welcomes all of you wholeheartedly. We Welcome students to grow and learn together.
 
             We at JIS University build a <span className='underline decoration-solid decoration-cyan-300 underline-offset-2'>peer-to-peer</span>  learning process making a better environment for students to learn and develop.
