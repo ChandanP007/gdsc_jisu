@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Team from './components/Team'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Header />
+      {/* <Header /> */}
+      <Team />
       <Footer />
 
     </>

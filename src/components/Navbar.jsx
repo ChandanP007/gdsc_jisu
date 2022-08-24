@@ -11,6 +11,8 @@ import CloseIcon from '@mui/icons-material/Close';
 function Navbar() {
 
   const [theme , setTheme] = useState('light')
+
+
   const [open , setOpen] = useState(false)
 
   const toggleTheme = () => {
@@ -18,7 +20,7 @@ function Navbar() {
     document.body.classList.toggle('dark')
   }
 
-  const toogleMenu = () => {
+  const toogleMenu = (e) => {
     const menu = document.querySelector('#menu-list')
     menu.classList.toggle('hidden')
     setOpen(!open)
@@ -26,7 +28,7 @@ function Navbar() {
 
   return (
     <>
-      <div id="navbar" className='lg:flex   flex-row justify-between  lg:items-center lg:justify-between  p-5  shadow-black shadow-sm bg-white bg-opacity-90  dark:shadow-slate-50  sticky top-0 px-24 dark:bg-bg-dark dark:text-white'>
+      <div  className='lg:flex   flex-row justify-between  lg:items-center lg:justify-between p-5  shadow-black shadow-sm bg-white bg-opacity-90  dark:shadow-slate-50  sticky top-0  dark:bg-bg-dark dark:text-white'>
         <div className="flex flex-row justify-between">
           <div className='inline '>
             <Link to='/'>
@@ -40,15 +42,15 @@ function Navbar() {
               </Link>
           </div>
 
-          <div className="menu">
+          <div className="">
                <span className=' lg:hidden text-3xl'>
-                {open ? <CloseIcon onClick={toogleMenu} className='cursor-pointer menu-options' /> : <SegmentIcon onClick={toogleMenu} className='cursor-pointer menu-options text-6xl' />}
+                {open ?   <CloseIcon onClick={toogleMenu} className='cursor-pointer menu-options' /> : <SegmentIcon onClick={toogleMenu} className='cursor-pointer menu-options text-6xl' /> }
                </span>
             </div>
 
         </div>
         
-        <div className="links dark:bg-bg-dark  lg:flex flex-row" id="menu-list">
+        <div className="links dark:bg-bg-dark  lg:flex flex-row hidden" id="menu-list">
           <ul className='lg:flex lg:flex-row lg:justify-end lg:opacity-100 opacity-100 text-center flex-col   p-4   lg:py-0  lg:pl-0 '>
             <li><a href="#" ><Link to={'/'}            className="nav-list   hover:font-semibold" >Home</Link></a></li>
             <li><a href="#" ><Link to={'/events'} className="nav-list   hover:font-semibold">Events</Link></a></li>

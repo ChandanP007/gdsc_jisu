@@ -120,6 +120,8 @@ input:checked+.slider:before {
     background-repeat: no-repeat;
     display: block;
     margin: auto;
+    width: 350px;
+    height: 130px;
 }
 
 .header-section .container {
