@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Team() {
+import Team from '../components/Team'
+
+function Teams() {
   return (
-    <div>Team</div>
+    <>
+    <Team />
+    </>
   )
 }
 
-export default Team
+export default Teams
