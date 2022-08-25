@@ -1,0 +1,65 @@
+[
+
+    {
+        "id": "1",
+        "name": "Abhishek Kushwaha",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "twitter": "https://twitter.com/Abbhishek_k",
+        "tagline": "Java | JavaScript | Python",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4",
+        "border_color": "green"
+
+    },
+    {
+        "id": "2",
+        "name": "Saptarshi ",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "tagline": "Coding while hearing music",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+
+    },
+    {
+        "id": "3",
+        "name": "Abhishek Kushwaha",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "tagline": "Coding while hearing music",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+
+    },
+    {
+        "id": "4",
+        "name": "Abhishek Kushwaha",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "tagline": "Coding while hearing music",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+
+    },
+    {
+        "id": "5",
+        "name": "Abhishek Kushwaha",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "tagline": "Coding while hearing music",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+
+    },
+    {
+        "id": "6",
+        "name": "Abhishek Kushwaha",
+        "role": "GDSC LEAD",
+        "linkedin": "https://www.linkedin.com/in/abbhiishek/",
+        "github": "https://github.com/Abbhiishek",
+        "tagline": "Coding while hearing music",
+        "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+
+    }
+]
