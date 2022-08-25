@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Team from './components/Team'
+import Loading from './components/Loading'
+import SpeedDail from './components/speedDail'
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
       {/* <Header /> */}
       <Team />
       <Footer />
+      <SpeedDail />
 
     </>
   )

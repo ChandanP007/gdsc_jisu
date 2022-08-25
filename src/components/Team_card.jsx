@@ -7,8 +7,6 @@ import { Avatar } from '@mui/material';
 function Team_card(data) {
 
     const { name, image, linkedin, tagline, github, role, twitter, border_color } = data.data;
-
-    console.log(data)
     return (
         <>
             <div className='p-4 flex flex-col bg-white  dark:bg-bg-dark m-10  shadow-2xl  dark:shadow-grey-400  dark:shadow-sm   justify-center rounded-xl dark:border-white  border-2'>
