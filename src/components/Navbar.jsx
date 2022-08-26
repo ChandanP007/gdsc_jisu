@@ -51,11 +51,11 @@ function Navbar() {
         </div>
         
         <div className="links dark:bg-bg-dark  lg:flex flex-row hidden" id="menu-list">
-          <ul className='lg:flex lg:flex-row lg:justify-end lg:opacity-100 opacity-100 text-center flex-col   p-4   lg:py-0  lg:pl-0 '>
-            <li><a href="#" ><Link to={'/'}            className="nav-list   hover:font-semibold" >Home</Link></a></li>
-            <li><a href="#" ><Link to={'/events'} className="nav-list   hover:font-semibold">Events</Link></a></li>
-            <li><a href="#" ><Link to={'/timeline'} className="nav-list  hover:font-semibold  ">Timeline</Link></a></li>
-            <li><a href="#" ><Link to={'/projects'} className="nav-list   hover:font-semibold" >Projects</Link></a></li>
+          <ul className='lg:flex lg:flex-row lg:justify-end lg:opacity-100 opacity-100 text-center flex-col   p-10 gap-6 sm:flex   lg:py-0  lg:pl-0 '>
+            <li><a href="#" ><Link to={'/'}            className="nav-list   hover:font-semibold " >Home</Link></a></li>
+            <li><a href="#" ><Link to={'/events'} className="nav-list   hover:font-semibold ">Events</Link></a></li>
+            <li><a href="#" ><Link to={'/timeline'} className="nav-list  hover:font-semibold   ">Timeline</Link></a></li>
+            <li><a href="#" ><Link to={'/projects'} className="nav-list   hover:font-semibold " >Projects</Link></a></li>
             <li><a href="#" ><Link to={'/team'} className="nav-list  hover:font-semibold " >Teams</Link></a></li>
             <li><a href="#" ><Link to={'/contact'} className="nav-list   hover:font-semibold " >Join Us</Link></a></li>
             {/* Light Switch  */}
