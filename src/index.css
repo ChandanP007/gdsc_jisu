@@ -1,9 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
     margin: 0;
     padding: 0;
     font-family: poppins;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(83, 83, 83);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+}
+
+.updated {
+    text-shadow: yellow 1px 1px 20px;
+}
+
+.community {
+    text-shadow: rgb(122, 245, 245) 1px 1px 20px;
 }

@@ -138,32 +138,3 @@ input:checked+.slider:before {
     line-height: 1.9em;
     text-align: center;
 }
-
-
-/* width */
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-
-/* Track */
-
- ::-webkit-scrollbar-track {
-    background: #ffffff;
-}
-
-
-/* Handle */
-
- ::-webkit-scrollbar-thumb {
-    background: rgb(83, 83, 83);
-    border-radius: 10px;
-}
-
-
-/* Handle on hover */
-
- ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0);
-}
