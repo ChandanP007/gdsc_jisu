@@ -12,7 +12,7 @@ import RssFeedIcon from '@mui/icons-material/RssFeed';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import FollowTheSignsIcon from '@mui/icons-material/FollowTheSigns';
 
-import FooterAnimation from '../assets/animation_gdsc.webp'
+// import FooterAnimation from '../assets/animation_gdsc.webp'
 
 
 function Footer() {
