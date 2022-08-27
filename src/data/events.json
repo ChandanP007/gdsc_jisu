@@ -1,0 +1,106 @@
+[{
+        "id": "3",
+        "name": "Compose Camp Android",
+        "description": "Frontend Development ",
+        "date": "01/09/2022",
+        "time": "9:00 AM ",
+        "type": "BootCamp",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
+        "isActive": true,
+        "completed": false,
+        "location": {
+            "name": "Kolkata",
+            "url": "https://goo.gl/maps/YfakLgVKVKyhZgPS6"
+        },
+        "mentor": [{
+
+            "id": "1",
+            "name": "Mentor 1",
+            "github": "",
+            "imgae": ""
+        }],
+        "speaker": [{
+
+                "id": "1",
+                "name": "Speaker 1",
+                "github": "",
+                "imgae": ""
+            },
+            {
+
+                "id": "2",
+                "name": "Speaker 2",
+                "github": "",
+                "imgae": ""
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Frontend Development",
+        "description": "Frontend Development ",
+        "date": "01/09/2022",
+        "time": "9:00 AM ",
+        "type": "BootCamp",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
+        "isActive": true,
+        "completed": false,
+        "location": {
+            "name": "Kolkata",
+            "url": "https://goo.gl/maps/YfakLgVKVKyhZgPS6"
+        },
+        "mentor": [{
+
+            "id": "1",
+            "name": "Mentor 1",
+            "github": "",
+            "imgae": ""
+        }],
+        "speaker": [{
+
+                "id": "1",
+                "name": "Speaker 1",
+                "github": "",
+                "imgae": ""
+            },
+            {
+
+                "id": "2",
+                "name": "Speaker 2",
+                "github": "",
+                "imgae": ""
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "name": "Getting Started With GDSC",
+        "description": " We'll be introducing our club and the events we've got planned for the next year - we would love for you to join our growing community!",
+        "date": "17/08/2022",
+        "time": " 4:00 PM (IST)",
+        "type": "Info Session",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
+        "isActive": false,
+        "completed": true,
+        "location": {
+            "name": "Kolkata | Jis University",
+            "url": "https://goo.gl/maps/YfakLgVKVKyhZgPS6"
+        },
+        "speaker": [{
+
+                "id": "1",
+                "name": "Abhishek Kushwaha",
+                "github": "",
+                "imgae": ""
+            },
+            {
+
+                "id": "2",
+                "name": "Hrittik Roy",
+                "github": "",
+                "imgae": ""
+            }
+        ]
+    }
+
+]
