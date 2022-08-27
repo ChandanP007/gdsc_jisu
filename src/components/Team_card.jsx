@@ -10,7 +10,7 @@ function Team_card(data) {
 
     return (
         <>
-            <div className='p-0 flex flex-col bg-white  dark:bg-slate-800 m-3  shadow-2xl  dark:shadow-grey-400  dark:shadow-lg   justify-center rounded-xl dark:border-white  border-2 dark:hover:bg-black dark:hover:shadow-lg dark:hover:shadow-teal-300 '>
+            <div className='p-0 flex flex-col bg-white  dark:bg-slate-800 m-3  shadow-2xl  dark:shadow-grey-400  dark:shadow-lg   justify-center rounded-xl dark:border-white  border-2 dark:hover:bg-black dark:hover:shadow-lg dark:hover:shadow-teal-300 transition-all duration-200 ease-in  hover:scale-105  '>
                 <div className='flex justify-center pt-5 pb-1'>
                     <Avatar src={image} alt={name} sx={{ width: 100, height: 100 }} className={`z-[0] shadow-lg border-4 border-${border_color}-700`} />
                 </div>
