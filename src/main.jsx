@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 // File imports
-import { Teams , Events, Contact,Timeline,Projects , NotFound} from './routes'
+import { Teams , Events, Contact,Timeline,Projects , NotFound , Login} from './routes'
 import App from './App'
 import './index.css'
 
@@ -21,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/timeline" element={<Timeline />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/projects/:id" element={<Projects />} />
+      {/* <Route path="/login" element={<Login />} /> */}
       <Route path="/:id" element={<NotFound />} />
     </Routes>
 
