@@ -1,48 +1,12 @@
 [{
         "id": "3",
         "name": "Compose Camp Android",
-        "description": "Frontend Development ",
-        "date": "01/09/2022",
-        "time": "9:00 AM ",
-        "type": "BootCamp",
-        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
-        "isActive": true,
-        "completed": false,
-        "location": {
-            "name": "Kolkata",
-            "url": "https://goo.gl/maps/YfakLgVKVKyhZgPS6"
-        },
-        "mentor": [{
-
-            "id": "1",
-            "name": "Mentor 1",
-            "github": "",
-            "imgae": ""
-        }],
-        "speaker": [{
-
-                "id": "1",
-                "name": "Speaker 1",
-                "github": "",
-                "imgae": ""
-            },
-            {
-
-                "id": "2",
-                "name": "Speaker 2",
-                "github": "",
-                "imgae": ""
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "name": "Frontend Development",
-        "description": "Frontend Development ",
-        "date": "01/09/2022",
-        "time": "9:00 AM ",
-        "type": "BootCamp",
-        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
+        "description": "Learn how to build android apps with compose",
+        "date": "09/09/2022",
+        "time": "10:30 AM ",
+        "type": "Workshop",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/ComposeCamp_Logo_OgBurQS.png",
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-01/",
         "isActive": true,
         "completed": false,
         "location": {
@@ -80,6 +44,7 @@
         "time": " 4:00 PM (IST)",
         "type": "Info Session",
         "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Get%20started%20with%20jisu%20%282%29.png",
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-getting-started-with-gdsc/",
         "isActive": false,
         "completed": true,
         "location": {

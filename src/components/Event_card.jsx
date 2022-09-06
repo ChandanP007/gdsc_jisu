@@ -28,11 +28,14 @@ function Event_card(event) {
                     </div>
 
                     <div className=' p-5 rounded-sm flex flex-col text-center gap-5'>
+                      <a href={event.event.link}>
+
                       {event.event.completed? <p className='font-mono text-black text-sm bg-slate-100 p-2 rounded-lg hover:bg-slate-500 hover:text-white'>Check out what happened</p>: (
                         <>
                         <p className='font-mono text-black text-sm bg-slate-100 rounded-lg p-2 hover:bg-slate-500 hover:text-white'>Know More</p>
                         </>
                       )}
+                      </a>
                     </div>
 
                   </div>

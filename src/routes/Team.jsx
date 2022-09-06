@@ -8,19 +8,25 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import { Avatar } from '@mui/material';
 import Team from '../components/Team'
 
-import Data from '../data/coreteam.json'
+// import Data from '../data/coreteam.json'
 
 function Teams() {
 
-  const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(false);
     const [data, setData] = useState([]);
 
-    // fetch data from file and set state
+    // fetch data from url
     useEffect(() => {
         setLoading(true);
-            setData(Data);
+        fetch('https://script.googleusercontent.com/macros/echo?user_content_key=-_0NaYP_rAp1jq5-sgk84bP2Jx9zGG6B3008EgCvVc6i7LJq0KI0XEw9zvfPcq1_HfU62f7CdoJMSKDpbebkY92Z485mmRDOm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAJsKm6W5fvg5GFSDJ7iKxeKW8GCg7FgvcDPvSDgbNPS6xQvgBeLZsqLchHuAr5RSnIJQiK8mAzHhPFHQg2xWNhZrqHMzLABhtz9Jw9Md8uu&lib=MfNGTPEdViWry00pYnDxJU2odFU99YuIM')
+        .then(response => response.json()).then(user => {
+            setData(user.data);
             setLoading(false);
-    } , []);
+        }).catch(error => {
+            console.log(error);
+        }
+        );
+    }, [])  
 
   return (
     <>
@@ -36,7 +42,7 @@ function Teams() {
                 <div className=" grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                     {loading ? (data.map(e => { return <Loading/>}))  : data.map((item) => {return (
                         <div className='p-0 flex flex-col bg-white  dark:bg-slate-800 m-3  shadow-2xl  dark:shadow-grey-400  dark:shadow-lg   justify-center rounded-xl dark:border-white  border-2 dark:hover:bg-black dark:hover:shadow-lg dark:hover:shadow-teal-300 transition-all duration-200 ease-in  hover:scale-105  '>
-                        <div className='flex justify-center pt-5 pb-1 bg-slate-800 rounded-md dark:bg-black'>
+                        <div className='flex justify-center pt-5 pb-1  rounded-md '>
                             <Avatar src={item.image} alt={item.name} sx={{ width: 100, height: 100 }} className={`z-[0] shadow-lg border-4 border-yellow-200 relative top-7`} />
                         </div>
                         <div className="p-5 font-mono dark:text-white">

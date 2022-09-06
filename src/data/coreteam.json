@@ -1,23 +1,172 @@
-[
-
-
-    {
-        "id": "1",
-        "name": "ROSHMIKANA PAL",
-        "role": " Creative Team Member",
-        "linkedin": "https://www.linkedin.com/in/roshmikana-pal-63266222a",
-        "github": "https://github.com/Roshmikana",
-        "tagline": "villain= the ones who are abused for their stories untold",
-        "image": "https://drive.google.com/file/d/11FykVQGR2H2pRuW1UcRqbbJqsuzbF7P_/view?usp=drivesdk"
-
+[{
+        "id": "GDSCC007",
+        "name": "Aneesh Bose",
+        "role": "Event Coordinator",
+        "linkedin": "https://www.linkedin.com/in/aneesh-bose-758628241",
+        "github": "https://github.com/aneesh-Bose",
+        "tagline": "\"Think deeply about simple things\"",
+        "image": ""
     },
     {
-        "id": "2",
+        "id": "GDSCC008",
+        "name": "Anjali Gupta",
+        "role": "Event Coordinator",
+        "linkedin": "https://www.linkedin.com/in/anjali-gupta-2774a1222",
+        "github": "https://github.com/anjalig18",
+        "tagline": "\"Simplicity is the soul of efficiency\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQEtDaTjLqiNKA/profile-displayphoto-shrink_400_400/0/1646139876046?e=1667433600&v=beta&t=kCEFtdy962viy_L1p5A2EzgTtIIAj2E4V2dhlT_PeJo"
+    },
+    {
+        "id": "GDSCR009",
+        "name": "Deblina Pal",
+        "role": "Event Representative",
+        "linkedin": "https://www.linkedin.com/in/deblina-pal-783985222",
+        "github": "https://github.com/deblinapal",
+        "tagline": "The journey of thousand miles begins with a single step",
+        "image": "https://media-exp1.licdn.com/dms/image/C5603AQF9tDgNc1g-zA/profile-displayphoto-shrink_400_400/0/1633455845748?e=1667433600&v=beta&t=SJXkiVi-hh4REqmKr4k14idrO7nKoz_WnBP0jgRfDms"
+    },
+    {
+        "id": "GDSCR010",
+        "name": "Debanjan Pan",
+        "role": "Event Representative",
+        "linkedin": "",
+        "github": "",
+        "tagline": "",
+        "image": ""
+    },
+    {
+        "id": "GDSCR011",
+        "name": "Rupam Das",
+        "role": "Event Representative",
+        "linkedin": "https://www.linkedin.com/in/rupamd-developer/",
+        "github": "https://twitter.com/imRupam_D",
+        "tagline": "\"if (alive) { code; }\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQFfkxC-plAYJQ/profile-displayphoto-shrink_400_400/0/1659676767795?e=1667433600&v=beta&t=F-7fAyLh2rVEXT9XK2_uSN0A4ZSGv0lGBeWo9Xm-dhw"
+    },
+    {
+        "id": "GDSCS012",
+        "name": "Abhisan Paul",
+        "role": "Creative Team",
+        "linkedin": "https://www.linkedin.com/in/abhisan-paul-247986224",
+        "github": "https://github.com/AbhisanPaul",
+        "tagline": "",
+        "image": ""
+    },
+    {
+        "id": "GDSCS013",
+        "name": "Pulak Tarafder",
+        "role": "Creative Team",
+        "linkedin": "https://www.linkedin.com/in/pulak-tarafder-987483222",
+        "github": "https://github.com/pulaktarafder",
+        "tagline": "\"A flower blooms only to be crushed\"",
+        "image": "https://avatars.githubusercontent.com/u/92203184?v=4"
+    },
+    {
+        "id": "GDSCS014",
+        "name": "Roshmikana Pal",
+        "role": "Creative Team",
+        "linkedin": "https://www.linkedin.com/in/roshmikana-pal-63266222a",
+        "github": "https://github.com/Roshmikana",
+        "tagline": "\"villain= the ones who are abused for their stories untold\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C5603AQFGHZDOIiUE3w/profile-displayphoto-shrink_800_800/0/1646493027745?e=1667433600&v=beta&t=lO78R6IlY1_hmvMtiWk0dk9MvFhflu5qUZlSCJiW2uQ"
+    },
+    {
+        "id": "GDSCS015",
         "name": "Trijeta Ghosh",
-        "role": "Graphics Team",
+        "role": "Creative Team",
         "linkedin": "https://www.linkedin.com/in/trijeta-ghosh-0a1987222",
-        "github": "https://github.com/account",
-        "tagline": "singing,drawing,coading",
+        "github": "https://github.com/TrijetaGhosh166",
+        "tagline": "\"Singing,drawing,coding\"",
         "image": "https://avatars.githubusercontent.com/u/110444654?s=400&u=2220310d197a2c863f1ca3134d7c32b6553a6e48&v=4"
+    },
+    {
+        "id": "GDSCS016",
+        "name": "Shreyos Ghosh",
+        "role": "Creative Team | Writer",
+        "linkedin": "https://www.linkedin.com/in/shreyos-ghosh-3a0841209",
+        "github": "https://github.com/Shreyosgit",
+        "tagline": "\"Eat sleep code repeat\"",
+        "image": "https://avatars.githubusercontent.com/u/92203452?v=4"
+    },
+    {
+        "id": "GDSCS017",
+        "name": "Nabanita Sarkar",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/nabanita--sarkar",
+        "github": "",
+        "tagline": "\"Life is all about breaking and making\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQEGX7IRKSRTqQ/profile-displayphoto-shrink_400_400/0/1660734537571?e=1667433600&v=beta&t=sbCh4vDRfQIC6g8nkPMdbI4mxscbyxJnqZizJi_3yxI"
+    },
+    {
+        "id": "GDSCS018",
+        "name": "Rakesh Kumar",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/rakesh-kumar-19237a224",
+        "github": "https://github.com/rk-1620",
+        "tagline": "\"Never trust your code before testing\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQEdlFsrqMC98A/profile-displayphoto-shrink_400_400/0/1635487217519?e=1667433600&v=beta&t=slQfkU2IKDGvO0Y8YvV4zLNDet28Vds2dGILK6KGlJk"
+    },
+    {
+        "id": "GDSCS019",
+        "name": "Sahil Raj",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/sahil-raj-aa64a0222",
+        "github": "https://github.com/Issiehyodo",
+        "tagline": "\"Consistency is the key to success and I like being consistent.\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQE_kMO2LO2LCA/profile-displayphoto-shrink_400_400/0/1639039196390?e=1667433600&v=beta&t=outpjz8j8DZGCGMaF2C0GBgZEBQsCJLo62eN-vJL2eY"
+    },
+    {
+        "id": "GDSCS020",
+        "name": "Aman Kumar Singh",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/aman-kumar-singh-17839024a",
+        "github": "https://github.com/Aman-00Singh",
+        "tagline": "\"Work in Silence\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4E03AQEdcNZ4t5_82w/profile-displayphoto-shrink_400_400/0/1661789803045?e=1667433600&v=beta&t=UsRQkcfW4PvX1fzLS560MOuShviMuMnZUpPJ_iIDAbg"
+    },
+    {
+        "id": "GDSCS021",
+        "name": "Anapeksha Das",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/anapeksha-das-b90525222",
+        "github": "https://github.com/Battleboy-bot",
+        "tagline": "",
+        "image": "https://media-exp1.licdn.com/dms/image/C4E03AQF7_7q56gv1DA/profile-displayphoto-shrink_400_400/0/1633458235448?e=1667433600&v=beta&t=z0qEuDPn11XzK2iIAJCmmkzSFRRviMqRUlnWAjYH6MQ"
+    },
+    {
+        "id": "GDSCS022",
+        "name": "Arpan Chall",
+        "role": "Event Staff",
+        "linkedin": " https://www.linkedin.com/in/arpan-chall-a4977b1b2",
+        "github": "",
+        "tagline": "\"Observation is the key\"",
+        "image": ""
+    },
+    {
+        "id": "GDSCS023",
+        "name": "Akash Barman",
+        "role": "Technical Team",
+        "linkedin": "https://www.linkedin.com/in/akashbarman",
+        "github": "https://github.com/itstheakash",
+        "tagline": "",
+        "image": "https://avatars.githubusercontent.com/u/92024930?v=4"
+    },
+    {
+        "id": "GDSCS024",
+        "name": "Anal Rauth",
+        "role": "Event Staff",
+        "linkedin": "https://www.linkedin.com/in/anal-rauth-748615186",
+        "github": "https://github.com/Anal-Rauth",
+        "tagline": "\"Keep coding, keep learning.\"",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQFfNQq8As85VA/profile-displayphoto-shrink_400_400/0/1651223808781?e=1667433600&v=beta&t=v9LPylIhabaxhGD90fjpTD8NZAXoPb0IEAHYdq8-qnc"
+    },
+    {
+        "id": "GDSCS025",
+        "name": "Anumita Nandi",
+        "role": "Event Staff",
+        "linkedin": "",
+        "github": "",
+        "tagline": "",
+        "image": ""
     }
 ]
