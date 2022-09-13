@@ -1,14 +1,88 @@
 [{
+        "id": "4",
+        "name": "Basic Layout With Compose Camp",
+        "description": "Learn how to build android apps with compose ",
+        "date": "17/09/2022",
+        "time": "06:00 PM",
+        "type": "Workshop",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/ComposeCamp_Logo_OgBurQS.png",
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-02-basic-layout/",
+        "isActive": true,
+        "completed": false,
+        "location": {
+            "name": "Virtual",
+            "url": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-02-basic-layout/"
+        },
+        "mentor": [{
+
+            "id": "1",
+            "name": "Mentor 1",
+            "github": "",
+            "imgae": ""
+        }],
+        "speaker": [{
+
+                "id": "1",
+                "name": "Speaker 1",
+                "github": "",
+                "imgae": ""
+            },
+            {
+
+                "id": "2",
+                "name": "Speaker 2",
+                "github": "",
+                "imgae": ""
+            }
+        ]
+    }, {
         "id": "3",
-        "name": "Compose Camp Android",
+        "name": "Compose Camp Android | Kotlin Fundamentals",
+        "description": "Learn how to build android apps with compose",
+        "date": "18/09/2022",
+        "time": "06:00 PM",
+        "type": "Workshop",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/ComposeCamp_Logo_OgBurQS.png",
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-03-kotlin-fundamentals/",
+        "isActive": true,
+        "completed": false,
+        "location": {
+            "name": "Kolkata",
+            "url": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-03-kotlin-fundamentals/"
+        },
+        "mentor": [{
+
+            "id": "1",
+            "name": "Mentor 1",
+            "github": "",
+            "imgae": ""
+        }],
+        "speaker": [{
+
+                "id": "1",
+                "name": "Speaker 1",
+                "github": "",
+                "imgae": ""
+            },
+            {
+
+                "id": "2",
+                "name": "Speaker 2",
+                "github": "",
+                "imgae": ""
+            }
+        ]
+    }, {
+        "id": "3",
+        "name": "Compose Camp Android |  Introduction To Compose",
         "description": "Learn how to build android apps with compose",
         "date": "09/09/2022",
         "time": "10:30 AM ",
         "type": "Workshop",
         "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_150,q_auto:good,w_150/v1/gcs/platform-data-dsc/events/ComposeCamp_Logo_OgBurQS.png",
         "link": "https://gdsc.community.dev/events/details/developer-student-clubs-jis-university-kolkata-presents-compose-camp-day-01/",
-        "isActive": true,
-        "completed": false,
+        "isActive": false,
+        "completed": true,
         "location": {
             "name": "Kolkata",
             "url": "https://goo.gl/maps/YfakLgVKVKyhZgPS6"
