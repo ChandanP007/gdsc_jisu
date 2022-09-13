@@ -30,7 +30,6 @@ function Teams() {
 
   return (
     <>
-    <Team />
 
     <div className=" pt-20 text-center mx-auto dark:bg-[#182232]">
             <h1 className='lg:text-6xl text-2xl dark:text-white font-mono'>Core Team</h1>
