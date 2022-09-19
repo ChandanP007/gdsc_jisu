@@ -38,10 +38,10 @@
         "id": "4",
         "name": "Aditya Dhanraj Kundu",
         "role": "Creative Head",
-        "linkedin": "",
-        "github": "",
-        "tagline": "",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLJnzgcw-0NEcuH0joPa1I_-MCWg-yJ_v1FrDzT8&s"
+        "linkedin": "https://www.linkedin.com/in/aditya-dhanaraj-kundu-476485222",
+        "github": "https://github.com/AdityaDhanarajKundu",
+        "tagline": "Focus on Finite Learning",
+        "image": "https://avatars.githubusercontent.com/u/92218805?v=4"
 
     },
     {
@@ -58,10 +58,19 @@
         "id": "6",
         "name": "Mayank sah",
         "role": "Social Media Head",
-        "linkedin": "",
-        "github": "",
-        "tagline": "",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLJnzgcw-0NEcuH0joPa1I_-MCWg-yJ_v1FrDzT8&s"
+        "linkedin": "https://www.linkedin.com/in/mayank-sah-4239701b3/",
+        "github": "https://github.com/Mayanksah777",
+        "tagline": "The game is all about staying in the crease and not giving up",
+        "image": "https://avatars.githubusercontent.com/u/74108758?v=4"
 
+    },
+    {
+        "id": "7",
+        "name": "Akash Barman",
+        "role": "Cloud Facilitator",
+        "linkedin": "https://www.linkedin.com/in/akashbarman",
+        "github": "",
+        "tagline": "I am a student of life",
+        "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/akash_barman_4WwPcMW.png"
     }
 ]
