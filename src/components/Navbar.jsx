@@ -20,6 +20,7 @@ function Navbar() {
     document.body.classList.toggle('dark')
   }
 
+
   useEffect(() => {
     // get the current time and set it to a variable
     const currentTime = new Date().getHours()
@@ -58,7 +59,7 @@ function Navbar() {
                 <span className='text-red-600 font-mono font-semibold text-4xl'>D</span>
                 <span className='text-yellow-600 font-mono font-semibold text-4xl'>S</span>
                 <span className='text-blue-600 font-mono font-semibold text-4xl dark:text-blue-400'>C </span>
-                <span className='text-black  font-mono font-semibold text-4xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JISU</span>
+                <span id="jis--university" className='text-black  font-mono font-semibold text-4xl hover:underline underline-offset-4 decoration-green-500 dark:text-white'>JISU</span>
               </span>
             </Link>
           </div>
