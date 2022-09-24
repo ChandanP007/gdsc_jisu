@@ -97,11 +97,11 @@ input:checked+.slider:before {
 /* Hero Section  */
 
 .hero-section {
-    min-height: 45vh;
+    min-height: 95vh;
     background-image: url("./images/GDSC--JISU--BANNER.png");
     background-attachment: fixed;
-    background-position: top;
-    background-size: auto;
+    background-position: center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     filter: contrast(1.2);
     filter: brightness(0.8);
