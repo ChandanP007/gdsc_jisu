@@ -12,13 +12,12 @@ import Newsletter from './components/Newsletter'
 import Community from './components/Community'
 
 function App() {
-
   // set dark mode as default
 
 
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Header />
       <Events />
       <Team />
