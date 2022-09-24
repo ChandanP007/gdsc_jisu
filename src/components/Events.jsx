@@ -34,7 +34,7 @@ function Events() {
 
       <div className=' py-20 bg-slate-300 dark:bg-[#0E1525]'>
         <div className="sm:px-2 lg:px-10 mb-2">
-          <h1 className='font-mono font-extrabold dark:text-white text-black lg:text-4xl underline underline-offset-8 decoration-yellow-400  '>UpComing Events</h1>
+          <h1 className='font-mono font-extrabold dark:text-white md:text-center lg:text-start text-black text-3xl underline underline-offset-8 decoration-yellow-400  '>UpComing Events</h1>
         </div>
         <div className='sm:px-20 lg:px-20 mb-2'>
           <div className='grid lg:grid-cols-3 sm:grid-cols-1 pt-10 gap-5 '>
@@ -50,7 +50,7 @@ function Events() {
         </div>
         <div className="mt-36">
           <div className="sm:px-2 lg:px-10 mb-2 mt-10">
-            <h1 className='font-mono font-extrabold dark:text-white text-black lg:text-4xl underline underline-offset-8 decoration-red-400  text-center'>Past Events</h1>
+            <h1 className='font-mono font-extrabold dark:text-white text-center text-black text-3xl underline underline-offset-8 decoration-red-400 '>Past Events</h1>
           </div>
           <div className='sm:px-20 lg:px-20 mb-2'>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 pt-10 gap-5 '>
@@ -70,7 +70,7 @@ function Events() {
 
         <div className="mt-36">
           <div className="sm:px-2 lg:px-10 mb-2 mt-10 ">
-            <h1 className='font-mono font-extrabold dark:text-white text-black lg:text-4xl underline underline-offset-8 decoration-green-400  text-right'>Request A Event</h1>
+            <h1 className='font-mono font-extrabold dark:text-white text-center text-black text-3xl underline underline-offset-8 decoration-green-400  lg:text-right'>Request A Event</h1>
           </div>
           <div className='sm:px-20 lg:px-20 my-2 flex lg:flex-row  sm:flex-col gap-5 pt-20 justify-evenly'>
             <div className='h-[100%] '>
