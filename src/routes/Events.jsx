@@ -37,7 +37,7 @@ function Events() {
 
       <div className=' py-20 bg-slate-300 dark:bg-[#0E1525] min-h-screen'>
         <div className="sm:px-2 lg:px-10 mb-2">
-          <h1 className='font-mono font-extrabold dark:text-white text-black lg:text-4xl underline underline-offset-8 decoration-yellow-400  '>Events</h1>
+          <h1 className='font-mono font-extrabold text-center dark:text-white text-black text-4xl underline underline-offset-8 decoration-yellow-400  '>Events</h1>
         </div>
         <div className='sm:px-20 lg:px-20 mb-2'>
           {loading ? <Loading /> : (
