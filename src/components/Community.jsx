@@ -31,12 +31,12 @@ function Community() {
             <p className='dark:text-white font-extrabold font-mono pt-5'>
                 Thanks to our community partners, who helped us  provide a better experience to our students.
             </p>
-            <div className='grid grid-flow-col   justify-center   gap-5 p-10'>
+            <div className='grid  lg:grid-flow-col  grid-flow-row   justify-center place-items-center p-10 gap-5'>
                 {/* <Slider {...settings}> */}
                 {
                     CommunityPartner?.map((partner) => {
                         return (
-                            <div className='bg-slate-600 rounded-lg p-10  hover:scale-105 transition-all duration-1000' key={partner.id} title={partner.description}>
+                            <div className='dark:bg-slate-600 bg-slate-100 rounded-lg p-10  hover:scale-105 transition-all duration-1000' key={partner.id} title={partner.description}>
                                 <img src={partner.image} alt={partner.name} className='rounded-xl  h-20 hover:scale-150 transition-all duration-1000' />
                             </div>
                         )
