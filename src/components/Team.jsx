@@ -27,17 +27,17 @@ function Team() {
 
 
     return (
-        <div className=" pt-20 text-center dark:bg-[#182232]">
-            <h1 className='lg:text-6xl text-2xl dark:text-white font-mono'>Organizers</h1>
-            <p className='dark:text-white font-extralight font-mono pt-5'>
+        <div className=" pt-20 text-center dark:bg-[#182232] px-5">
+            <h1 className='lg:text-6xl text-4xl dark:text-white font-mono'>Organizers</h1>
+            <p className='dark:text-white font-extralight font-mono pt-5 text-xl'>
                 We are a team of passionate developers who are passionate about building great products.
             </p>
             <div className="lg:px-24 sm:p-5">
 
-                <div className=" grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+                <div className=" grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1  lg:mx-5">
                     {loading ? (data.map(e => { return <Loading /> })) : data.map((item) => {
                         return (
-                            <div className='p-0 flex flex-col   dark:bg-black m-3 bg- shadow-2xl  dark:shadow-grey-400  dark:shadow-lg   justify-center rounded-xl dark:border-white  border-2 dark:hover:bg-black dark:hover:shadow-lg dark:hover:shadow-teal-300 transition-all duration-200 ease-in  hover:scale-105  '
+                            <div className=' mx-5 p-0 flex flex-col   dark:bg-black m-3 bg- shadow-2xl  dark:shadow-grey-400  dark:shadow-lg   justify-center rounded-xl dark:border-white  border-2 dark:hover:bg-black dark:hover:shadow-lg dark:hover:shadow-teal-300 transition-all duration-200 ease-in  hover:scale-105  '
                                 key={item.id} title={
                                     item.name + " " + item.role + " " + item.tagline + " " + item.id
                                 } >
