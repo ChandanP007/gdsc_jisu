@@ -67,7 +67,17 @@ function Footer() {
               </ul>
             </div>
           </div>
+
         </div>
+        <div className='grid  grid-cols-2  lg:gap-2 gap-4 text-black  p-10 lg:place-items-center'>
+          <div className='sm:col-span-1 col-span-2'>
+            <span className='text-black dark:text-white font-mono font-medium'>© 2022 Google Developer Student Club JIS University</span>
+          </div>
+          <div className='sm:col-span-1 col-span-2'>
+            <span className='text-black dark:text-white font-mono font-medium'>Made with ❤️ By Abhishek & Chandan</span>
+          </div>
+
+          </div>
       </div>
     </div>
   )
