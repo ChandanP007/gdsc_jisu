@@ -36,7 +36,7 @@ function Teams() {
                 <p className='dark:text-white font-extralight font-mono pt-5'>
                     We thank all the core team members for their contribution to the project, Events and the community. Without them, this project would not have been possible.
                 </p>
-                <div className="lg:px-24 sm:p-5">
+                <div className="lg:px-32 sm:p-5">
                     {loading ? <Loading /> : (
 
                         <div className="grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">

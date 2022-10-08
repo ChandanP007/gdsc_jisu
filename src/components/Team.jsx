@@ -29,7 +29,7 @@ function Team() {
     return (
         <div className=" pt-20 text-center dark:bg-[#182232] px-5">
             <h1 className='lg:text-6xl text-4xl dark:text-white font-mono'>Organizers</h1>
-            <p className='dark:text-white font-extralight font-mono pt-5 text-xl'>
+            <p className='dark:text-white font-light font-mono pt-5 text-base px-5 text-clip'>
                 We are a team of passionate developers who are passionate about building great products.
             </p>
             <div className="lg:px-24 sm:p-5">
