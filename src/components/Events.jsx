@@ -68,7 +68,7 @@ function Events() {
 
         </div>
 
-        <div className="mt-36">
+        {/* <div className="mt-36">
           <div className="sm:px-2 lg:px-10 mb-2 mt-10 ">
             <h1 className='font-mono font-extrabold dark:text-white text-center text-black text-3xl underline underline-offset-8 decoration-green-400  lg:text-right'>Request A Event</h1>
           </div>
@@ -80,7 +80,7 @@ function Events() {
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJnZ4-U-nNOgfH3g6YfY9iqm0U7boMMUdCl9rpNtrSXlK86w/viewform?embedded=true" outline="none" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
           </div>
-        </div>
+        </div> */}
       </div >
     </Suspense>
   )
