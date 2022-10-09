@@ -3,7 +3,7 @@ import React, { useState, useEffect, lazy, Suspense } from 'react'
 const BlogCard = lazy(() => import("../components/BlogCard"))
 
 import Blog_Data from '../data/abbhishek-stories-copy.json'
-import Loader from '../components/Loader.jsx'
+import Loader from '../components/Loader'
 
 
 export default function Blogs() {
