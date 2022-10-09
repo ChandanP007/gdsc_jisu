@@ -33,7 +33,7 @@ function Blogs() {
 
           </div>
 
-          <div className="flex flex-col  mx-80 gap-2">
+          <div className="flex flex-col  gap-2">
             {loading ? <BlogCardLoading /> : blogs.filter((blog) => {
               if (search == "") {
                 return blog
