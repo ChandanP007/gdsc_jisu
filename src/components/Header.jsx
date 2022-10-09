@@ -1,5 +1,6 @@
 import React from 'react'
 import GDSC_Branding from '../images/gdsc-branding.png'
+
 function Header() {
   return (
     <div className=' mx-auto  dark:bg-bg-dark dark:text-white'>
