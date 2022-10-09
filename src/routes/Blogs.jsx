@@ -2,19 +2,25 @@ import React, { useState, useEffect, lazy, Suspense } from 'react'
 
 const BlogCard = lazy(() => import("../components/BlogCard"))
 
-import Blog_Data from '../data/abbhishek-stories-copy.json'
 import Loader from '../components/Loader'
 
 
 export default function Blogs() {
 
   const [blogs, setBlogs] = useState([])
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState()
   const [search, setSearch] = useState('')
 
   useEffect(() => {
-    setBlogs(Blog_Data.posts)
-    setLoading(false)
+    setLoading(true)
+    fetch('../data/abbhishek-stories-copy.json')
+      .then(response => response.json()).then(blogs => {
+        setBlogs(blogs.data)
+        setLoading(false)
+      }).catch(error => {
+        console.log(error)
+      }
+      );
   }, [])
 
   return (

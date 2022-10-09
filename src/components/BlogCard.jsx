@@ -1,6 +1,4 @@
 import React from 'react'
-import Loader from '../components/Loader'
-import ReactAudioPlayer from 'react-audio-player';
 
 
 export default function BlogCard({ blog }) {
@@ -27,12 +25,9 @@ export default function BlogCard({ blog }) {
                                 <p className="text-black dark:text-white ">Listen Blog In Audio</p>
                             </div>
                             <div className=' justify-center flex '>
-                                <ReactAudioPlayer
-                                    // src={blog?.audioUrls[0]}
-                                    src={blog?.audioUrls?.male ? blog.audioUrls.male : blog.audioUrls.female}
+                                <audio src={blog?.audioUrls?.male ? blog.audioUrls.male : blog.audioUrls.female}
                                     controls
-                                    className='w-1/2'
-                                />
+                                    className='w-1/2' />
                             </div>
                         </div>
                         <p className="text-black dark:text-white text-start">Views : {blog.views}</p>
