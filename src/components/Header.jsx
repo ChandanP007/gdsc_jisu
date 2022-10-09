@@ -1,5 +1,7 @@
 import React from 'react'
+
 import GDSC_Branding from '../assets/animation_gdsc.webp'
+
 function Header() {
   return (
     <div className=' mx-auto  dark:bg-bg-dark dark:text-white'>
