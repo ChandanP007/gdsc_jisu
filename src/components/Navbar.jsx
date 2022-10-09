@@ -51,7 +51,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='lg:flex   flex-row justify-between  lg:items-center lg:justify-between px-5 py-2 shadow-black shadow-sm bg-white bg-opacity-90  dark:shadow-slate-50  sticky top-0  dark:bg-bg-dark dark:text-white z-50'>
+      <div className='lg:flex   flex-row justify-between  lg:items-center lg:justify-between px-5 py-2 shadow-black shadow-sm bg-white bg-opacity-90  dark:shadow-slate-50  sticky top-0  dark:bg-bg-dark dark:text-white z-50 navig'>
         <div className="flex flex-row justify-between">
           <div className='inline '>
             <Link to='/'>
