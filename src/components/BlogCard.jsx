@@ -3,7 +3,7 @@ import Loader from '../components/Loader.jsx'
 import ReactAudioPlayer from 'react-audio-player';
 
 
-export default BlogCard = blog => {
+export default function BlogCard({ blog }) {
 
     // brief , title , coverImage , audioUrls , views , 
     // https://codeforcommunity.hashnode.dev/
