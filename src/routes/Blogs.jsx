@@ -8,7 +8,7 @@ function BlogCardLoading() {
     <>Loading</>
   )
 }
-function Timeline() {
+function Blogs() {
 
   const [blogs, setBlogs] = useState([])
   const [loading, setLoading] = useState(true)
@@ -54,4 +54,4 @@ function Timeline() {
   )
 }
 
-export default Timeline
+export default Blogs
