@@ -22,7 +22,8 @@
         "react-markdown": "^8.0.3",
         "react-router": "^6.3.0",
         "react-router-dom": "^6.3.0",
-        "react-syntax-highlighter": "^15.5.0"
+        "react-syntax-highlighter": "^15.5.0",
+        "vercel": "^28.4.8"
     },
     "devDependencies": {
         "@types/react": "^18.0.17",
