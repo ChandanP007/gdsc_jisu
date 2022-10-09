@@ -26,14 +26,14 @@ export default function BlogCard({ blog }) {
                             <div >
                                 <p className="text-black dark:text-white ">Listen Blog In Audio</p>
                             </div>
-                            {/* <div className=' justify-center flex '>
+                            <div className=' justify-center flex '>
                                 <ReactAudioPlayer
                                     // src={blog?.audioUrls[0]}
                                     src={blog?.audioUrls?.male ? blog.audioUrls.male : blog.audioUrls.female}
                                     controls
                                     className='w-1/2'
                                 />
-                            </div> */}
+                            </div>
                         </div>
                         <p className="text-black dark:text-white text-start">Views : {blog.views}</p>
                     </div>
