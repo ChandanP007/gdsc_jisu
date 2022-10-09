@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react'
 
-const { BlogCard } = lazy(() => import("../components/BlogCard.jsx"))
+const BlogCard = lazy(() => import("../components/BlogCard.jsx"))
 
 import Blog_Data from '../data/abbhishek-stories-copy.json'
 import Loader from '../components/Loader.jsx'
@@ -20,11 +20,13 @@ export default function Blogs() {
   return (
     <>
       <div className='dark:bg-[#182232]  min-h-screen'>
-        <div className='pt-8 text-center container mx-auto  '>
-          <h1 className='lg:text-6xl text-2xl dark:text-white font-mono text-center text-black' >Blogs</h1>
-          <p className='text-black dark:text-white text-center text-base'>Here are some of the blogs written by our members</p>
-          <div className='flex flex-row justify-end'>
-            <input type="text" placeholder="Search Your Blogs" className="border-2 border-black dark:border-white rounded-md p-2 text-center" onChange={(e) => setSearch(e.target.value)} />
+        <div className='pt-8 text-center container lg:mx-auto  mx-3 '>
+          <h1 className='lg:text-6xl text-2xl dark:text-white font-mono Core--Team'>Blogs</h1>
+          <p className='dark:text-white font-extralight font-mono pt-5'>
+            Here are some of blogs Written by our team members :)
+          </p>
+          <div className='flex flex-row justify-center px-9 pb-10'>
+            <input type="text" placeholder="Search Your Blogs" className=" w-full border-2 border-black dark:border-white rounded-md p-2  text-center" onChange={(e) => setSearch(e.target.value)} />
           </div>
           <Suspense fallback={<Loader />}>
             <div className="flex flex-col  gap-2">
@@ -37,7 +39,7 @@ export default function Blogs() {
                 }
               }).map((blog) => {
                 return (
-                  <BlogCard blog={blog} />
+                  <BlogCard blog={blog} key={blog._id} />
                 )
               })}
             </div>

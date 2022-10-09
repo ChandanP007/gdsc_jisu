@@ -1,9 +1,9 @@
-import React, { lazy, Suspense } from 'react'
+import React from 'react'
 import Loader from '../components/Loader.jsx'
 import ReactAudioPlayer from 'react-audio-player';
 
 
-export default function BlogCard({ blog }) {
+export default BlogCard = blog => {
 
     // brief , title , coverImage , audioUrls , views , 
     // https://codeforcommunity.hashnode.dev/
@@ -11,10 +11,7 @@ export default function BlogCard({ blog }) {
 
     return (
         <>
-            <Suspense fallback={Loader}>
-
-            </Suspense>
-            <div
+            <div key={blog._id}
                 onClick={
                     () => {
                         window.open(`https://abbhishek.hashnode.dev/${blog.slug}`)
