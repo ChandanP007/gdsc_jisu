@@ -55,8 +55,8 @@ export default function Blogs() {
 
   return (
     <>
-      <div className='dark:bg-[#182232]  min-h-screen'>
-        <div className='pt-8 text-center container lg:mx-auto  mx-3 '>
+      <div className='dark:bg-[#182232] min-h-screen'>
+        <div className='pt-8 text-center lg:container mx-2 lg:mx-auto  '>
           <h1 className='lg:text-6xl text-2xl dark:text-white font-mono Core--Team'>Blogs</h1>
           <p className='dark:text-white font-extralight font-mono pt-5'>
             Here are some of blogs Written by our team members :)
@@ -69,9 +69,11 @@ export default function Blogs() {
               {loading ? <Loader /> : blogs.filter((blog) => {
                 if (search == "") {
                   return blog
-                } else if (blog.title.toLowerCase().includes(search.toLowerCase())) {
-                  console.log(blog.title)
+                } else if (blog.title.toLowerCase().includes(search.toLowerCase()) && blog.brief.toLowerCase().includes(search.toLowerCase())) {
+                  // console.log(blog.title)
                   return blog
+                } else {
+                  return null
                 }
               }).map((blog) => {
                 return (

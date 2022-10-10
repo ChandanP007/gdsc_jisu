@@ -57,38 +57,33 @@ export default function BlogCard({ blog }) {
     return (
         <>
             <div
-                onClick={
-                    () => {
-                        window.open(`https://abbhishek.hashnode.dev/${blog.slug}`)
-                    }
-                }
-                className="border-2 border-black dark:border-white rounded-md p-2 m-2 cursor-pointer">
+                className="border-2 border-black dark:border-white rounded-md p-2 m-2">
                 <div className='flex lg:flex-row flex-col gap-2'>
                     <div className='basis-1/2'>
-                        <img src={blog.coverImage} alt="blog-pic" />
+                        <img src={blog.coverImage} alt="blog-pic" className=' w-full border aspect-video' />
                     </div>
                     <div className='text-start basis-1/2'>
-                        <h1 className="text-black text-center dark:text-white text-2xl font-mono font-bold  pb-2">{blog.title}</h1>
+                        <h1 className="text-black text-start dark:text-white text-3xl font-mono font-bold  p-2">{blog.title}</h1>
                         <hr />
-                        <p className="text-black dark:text-white ">{blog.brief}</p>
-                        <div className='flex justify-start'>
-                            <div className='flex flex-row gap-2'>
-                                <img src={author.photo} alt="author-pic" className='rounded-full h-8 w-8' />
-                                <p className="text-black dark:text-white ">{author.name}</p>
+                        <p className="text-black dark:text-white p-5">{blog.brief}</p>
+
+                        <div className='flex lg:flex-row flex-col justify-around items-center gap-3 lg:container py-auto'>
+                            <div className='flex flex-row justify-items-start items-center gap-2'>
+                                <img src={author.photo} alt="author-pic" className='rounded-full w-16 h-16' />
+                                <p className="text-black dark:text-white text-start font-mono">{author.name}</p>
+                            </div>
+                            <div className='text-center lg:p-0 pt-5 pb-2'>
+                                <button
+                                    onClick={
+                                        () => {
+                                            window.open(`https://abbhishek.hashnode.dev/${blog.slug}`)
+                                        }
+                                    }
+                                    className='hover:animate-pulse font-mono text-center bg-blue-500  text-white p-2 rounded-sm hover:rounded-lg'>
+                                    Read The Blog
+                                </button>
                             </div>
                         </div>
-
-                        {/* <div className='flex flex-col gap-2 justify-center text-center'>
-                            <div >
-                                <p className="text-black dark:text-white ">Listen Blog In Audio</p>
-                            </div>
-                            <div className=' justify-center flex '>
-                                <audio src={blog?.audioUrls?.male ? blog.audioUrls.male : blog.audioUrls.female}
-                                    controls
-                                    className='w-1/2' />
-                            </div>
-                        </div> */}
-                        <p className="text-black dark:text-white text-start">Total Reaction  : {blog.totalReactions}</p>
                     </div>
                 </div>
             </div>
