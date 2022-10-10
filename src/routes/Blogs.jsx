@@ -11,17 +11,47 @@ export default function Blogs() {
   const [loading, setLoading] = useState()
   const [search, setSearch] = useState('')
 
+
   useEffect(() => {
-    setLoading(true)
-    fetch('../data/abbhishek-stories-copy.json')
-      .then(response => response.json()).then(blogs => {
-        setBlogs(blogs.data)
-        setLoading(false)
-      }).catch(error => {
-        console.log(error)
-      }
-      );
+    async function fetchBlogs() {
+      setLoading(true)
+      fetch('https://api.hashnode.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          query: `
+        {
+          user(username: "abbhishek") {
+            publication {
+              posts{
+                title
+                brief
+                coverImage
+                slug
+                _id
+                totalReactions
+              }
+            }
+          }
+        }
+        `
+        })
+      })
+        .then(r => r.json())
+        .then(data => {
+          // console.log(data)
+          setBlogs(data.data.user.publication.posts)
+          setLoading(false)
+        })
+    }
+    fetchBlogs()
   }, [])
+
+
+
 
   return (
     <>
