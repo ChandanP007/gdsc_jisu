@@ -14,3 +14,4 @@ const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) => {
 Objects.forEach((Object) => {
     appearOnScroll.observe(Object);
 });
+
